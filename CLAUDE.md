@@ -13,6 +13,11 @@ The `.gitignore` is configured for Python (including support for pip, uv, poetry
 ## Commands
 - Run the snake game: `python snake.py`
 
+## Backlog Workflow
+- Track bugs and features in `BACKLOG.md`
+- When an item is completed, remove it from its section in `BACKLOG.md` and append it to `ARCHIVED.md` under the appropriate heading (`## Features` or `## Bugs`)
+- Keep `BACKLOG.md` clean — it should only contain pending work
+
 ## Git Workflow
 - Each new feature gets its own branch: `git checkout -b feature/<name>`
 - Commit work incrementally on the feature branch
